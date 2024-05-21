@@ -1,0 +1,25 @@
+{
+  "name": "ramah-emails",
+  "version": "1.0.0",
+  "description": "Ramah email api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iambenkis/ramah-email-api.git"
+  },
+  "author": "benkis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iambenkis/ramah-email-api/issues"
+  },
+  "homepage": "https://github.com/iambenkis/ramah-email-api#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "juice": "^10.0.0",
+    "nodemailer": "^6.9.13"
+  }
+}
