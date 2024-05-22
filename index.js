@@ -8,7 +8,7 @@ const newCourse = require("./routes/send-email");
 
 app.use("/api", newCourse);
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
   res.send("Hello World");
 });
 
