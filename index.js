@@ -7,6 +7,11 @@ app.use(express.json());
 const newCourse = require("./routes/send-email");
 
 app.use("/api", newCourse);
+
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
 // Start the server
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
